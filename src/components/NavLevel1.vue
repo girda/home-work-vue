@@ -1,6 +1,8 @@
 <template>
   <nav class="nav-level-1">
 
+    <router-link class="nav-level-1__link" to="Blog">Blog</router-link>
+
     <router-link class="nav-level-1__link" to="News">News</router-link>
 
     <router-link class="nav-level-1__link" to="Inspiration">Inspiration</router-link>
@@ -24,7 +26,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="sass" scoped>
+<style lang="sass">
 .nav-level-1
   display: flex
   align-items: center
@@ -32,6 +34,7 @@ export default {
   &__link
     margin-left: 20px
     font-size: 16px
+    font-weight: 700
     color: #cccccc
     text-decoration: none
     text-transform: uppercase

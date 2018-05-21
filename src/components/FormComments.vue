@@ -34,6 +34,7 @@ export default {
 
 
 <style lang="sass" scoped>
+
 .form-comments
 
 	&__title
@@ -74,5 +75,4 @@ export default {
 		border-radius: 4px
 
 		resize: none
-
 </style>
