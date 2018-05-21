@@ -1,5 +1,5 @@
 <template>
-  <section class="news-post">
+  <section class="news-post" :data-mod="mod">
     
     <div class="container">
       
@@ -29,10 +29,9 @@
 <script>
 export default {
   name: 'NewsPost',
-  props: ['title', 'date', 'url'],
+  props: ['title', 'date', 'url','btn', 'mod'],
   data () {
     return {
-      btn: true,
       msg: 'NewsPost',
     }
   },
@@ -48,7 +47,7 @@ export default {
   margin-bottom: 45px
   padding-bottom: 40px
   border-bottom: 1px solid #d4d4d4
-  &:last-of-type
+  &[data-mod*=border-none]
     border: none
 
   &__title
@@ -69,7 +68,7 @@ export default {
     display: flex
     justify-content: center
     align-items: center
-    margin-bottom: 50px
+    margin-bottom: 45px
 
     img
       width: auto
@@ -80,13 +79,16 @@ export default {
 
   &__descr
     line-height: 1.6
-    margin-bottom: 40px
+    p
+      margin-bottom: 25px
 
   &__btn
     display: flex
     align-items: center
     text-decoration: none
     color: black
+
+    margin-top: 40px
 
   &__btn-icon
     display: flex

@@ -31,6 +31,10 @@ body
   line-height: 1.2
   color: #111111
 
+h1,h2,h3,p,div
+  margin: 0
+  padding: 0
+
 .container
   width: 940px
   margin: 0 auto
