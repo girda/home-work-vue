@@ -39,9 +39,8 @@ export default {
 
 	&__title
 		margin-bottom: 45px
-
+		font-family: NexaBold
 		font-size: 32px
-		font-weight: 700
 
 	&__wrapper
 		display: flex
@@ -54,9 +53,8 @@ export default {
 
 	&__label-name
 		margin-bottom: 10px
-
+		font-family: proximanova-semibold
 		font-size: 18px
-		font-weight: 700
 
 	&__input
 		width: 285px

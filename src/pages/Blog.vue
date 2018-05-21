@@ -136,6 +136,7 @@ export default {
     margin: 40px 0
 
   &__subtitle
+    font-family: proximanova-semibold
     font-size: 30px
     margin-bottom: 20px
 
@@ -163,9 +164,8 @@ export default {
 
   &__title
     margin-bottom: 45px
-
+    font-family: NexaBold
     font-size: 32px
-    font-weight: 700
 
   &__item
     margin-bottom: 45px

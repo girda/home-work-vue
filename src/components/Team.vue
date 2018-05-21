@@ -37,8 +37,8 @@ export default {
   margin-bottom: 30px
 
   &__title
+    font-family: NexaBold
     font-size: 48px
-    font-weight: 700
     text-align: center
     margin-bottom: 45px
 

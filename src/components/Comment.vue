@@ -68,9 +68,8 @@ export default {
 
   &__name
     margin-bottom: 12px
-
+    font-family: proximanova-semibold
     font-size: 24px
-    font-weight: 700
 
   &__date
     margin-bottom: 15px

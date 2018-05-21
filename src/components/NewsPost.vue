@@ -54,6 +54,7 @@ export default {
     max-width: 840px
     margin: 0 auto 30px
     
+    font-family: NexaBold
     font-size: 50px
     text-transform: capitalize
     text-align: center

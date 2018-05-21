@@ -27,15 +27,29 @@ export default {
 @import sass/app
 
 @font-face
-  font-family: NexaRegular
-  src: url("fonts/NexaRegular.woff") format("woff")
+  font-family: NexaBold
+  src: url("fonts/NexaBold.woff") format("woff")
+  font-weight: normal
+  font-style: normal
+  font-display: swap
+
+@font-face
+  font-family: proximanova-regular
+  src: url("fonts/proximanova-regular.woff") format("woff")
+  font-weight: normal
+  font-style: normal
+  font-display: swap
+
+@font-face
+  font-family: proximanova-semibold
+  src: url("fonts/proximanova-semibold.woff") format("woff")
   font-weight: normal
   font-style: normal
   font-display: swap
 
 body 
   margin: 0
-  font-family: NexaRegular, sans-serif
+  font-family: 'proximanova-regular' , sans-serif
   font-weight: 400
   font-size: 16px
   line-height: 1.2

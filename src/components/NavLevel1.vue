@@ -33,6 +33,7 @@ export default {
 
   &__link
     margin-left: 20px
+    font-family: NexaBold
     font-size: 16px
     font-weight: 700
     color: #cccccc

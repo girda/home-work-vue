@@ -44,8 +44,8 @@ export default {
     border-bottom: 1px solid #e0e0e0
 
   &__title
+    font-family: NexaBold
     font-size: 48px
-    font-weight: 700
     text-align: center
     margin-bottom: 45px
 
